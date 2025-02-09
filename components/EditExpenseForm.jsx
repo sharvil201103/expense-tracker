@@ -14,7 +14,7 @@ export default function EditExpenseForm({ id, label, amount, credit }) {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await fetch(`https://expense-tracker-git-main-sharvilkarwas-projects.vercel.app//api/expenses/${id}`, {
+            const res = await fetch(`https://expense-tracker-bq7nd6nvh-sharvilkarwas-projects.vercel.app//api/expenses/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-type": "application/json"

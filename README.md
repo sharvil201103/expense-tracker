@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-Open [https://expense-tracker-git-main-sharvilkarwas-projects.vercel.app/](https://expense-tracker-git-main-sharvilkarwas-projects.vercel.app/) with your browser to see the result.
+Open [https://expense-tracker-bq7nd6nvh-sharvilkarwas-projects.vercel.app/](https://expense-tracker-bq7nd6nvh-sharvilkarwas-projects.vercel.app/) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
