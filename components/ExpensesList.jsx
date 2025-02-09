@@ -2,7 +2,7 @@ import RemoveBtn from "./RemoveBtn";
 
 const getExpenses = async () => {
     try {
-        const res = await fetch('http://localhost:3000/api/expenses', {
+        const res = await fetch('https://expense-tracker-git-main-sharvilkarwas-projects.vercel.app//api/expenses', {
             cache: "no-store"
         });
         if (!res.ok) {

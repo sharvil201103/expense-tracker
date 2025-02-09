@@ -2,7 +2,7 @@ import EditExpenseForm from "@/components/EditExpenseForm";
 
 const getExpenseById = async (id) => {
     try {
-        const res = await fetch(`http://localhost:3000/api/expenses/${id}`, {
+        const res = await fetch(`https://expense-tracker-git-main-sharvilkarwas-projects.vercel.app//api/expenses/${id}`, {
             cache: "no-store"
         })
         if (!res.ok) {

@@ -10,7 +10,7 @@ export default function RemoveBtn({ id }) {
     const removeExpense = async () => {
         const confirmed = confirm("Are you sure you want to delete this expense?");
         if (confirmed) {
-            const res = await fetch(`http://localhost:3000/api/expenses/${id}`, {
+            const res = await fetch(`https://expense-tracker-git-main-sharvilkarwas-projects.vercel.app//api/expenses/${id}`, {
                 method: "DELETE"
             });
         }

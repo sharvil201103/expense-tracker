@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const getTotalAmount = async () => {
     try {
-        const res = await fetch("http://localhost:3000/api/amount", {
+        const res = await fetch("https://expense-tracker-git-main-sharvilkarwas-projects.vercel.app//api/amount", {
             cache: "no-store",
         });
         if (!res.ok) {
